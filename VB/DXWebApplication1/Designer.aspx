@@ -21,6 +21,9 @@
                     reportDesigner.GetCurrentTab().refresh();
                 }
             });
+            var validateBindingsAction = e.GetById(DevExpress.Designer.Report.ActionId.ValidateBindings);
+            if (validateBindingsAction)
+                validateBindingsAction.visible = false;
         }
     </script>
     <dx:ASPxReportDesigner ID="ASPxReportDesigner1" ClientInstanceName="reportDesigner" runat="server">
