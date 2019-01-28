@@ -1,4 +1,4 @@
-## How to customize the Report Designer toolbar
+## How to customize the Web Report Designer's toolbar
 
 This example demonstrates how to use the client-side [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Scripts.ASPxClientReportDesigner.CustomizeMenuActions) event to hide the existing **Validate Bindings** toolbar command and add a new **Refresh** command that refreshes the current report tab. 
 
