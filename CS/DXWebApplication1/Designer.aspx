@@ -1,6 +1,6 @@
 <%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="Designer.aspx.cs" Inherits="DXWebApplication1.Designer" %>
 
-<%@ Register Assembly="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.XtraReports.v20.2.Web.WebForms, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/html" id="refresh">
@@ -21,7 +21,7 @@
                     reportDesigner.GetCurrentTab().refresh();
                 }
             });
-            var validateBindingsAction = e.GetById(DevExpress.Designer.Report.ActionId.ValidateBindings);
+            var validateBindingsAction = e.GetById(DevExpress.Reporting.Designer.Actions.ActionId.ValidateBindings);
             if (validateBindingsAction)
                 validateBindingsAction.visible = false;
         }
