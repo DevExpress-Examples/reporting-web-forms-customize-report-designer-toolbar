@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="Designer.aspx.vb" Inherits="DXWebApplication1.Designer" %>
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="Designer.aspx.cs" Inherits="DXWebApplication1.Designer" %>
 
 <%@ Register Assembly="DevExpress.XtraReports.v18.2.Web.WebForms, Version=18.2.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 
