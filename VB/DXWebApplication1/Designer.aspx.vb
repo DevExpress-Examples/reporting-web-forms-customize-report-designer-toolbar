@@ -15,7 +15,7 @@ Namespace DXWebApplication1
 
         Private Sub BindToData()
             ' Create a SQL data source with the specified connection string.
-            Dim ds As DevExpress.DataAccess.Sql.SqlDataSource = New DevExpress.DataAccess.Sql.SqlDataSource("NWindConnectionString")
+            Dim ds As SqlDataSource = New SqlDataSource("NWindConnectionString")
             ' Create a SQL query to access the Products data table.
             Dim query As SelectQuery = SelectQueryFluentBuilder.AddTable("Products").SelectAllColumnsFromTable().Build("Products")
             ds.Queries.Add(query)
