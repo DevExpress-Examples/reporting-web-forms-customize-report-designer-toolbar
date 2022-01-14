@@ -9,7 +9,7 @@ Imports System.ServiceModel
 Namespace DXWebApplication1
 
     Public Class ReportStorageWebExtension1
-        Inherits DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension
+        Inherits ReportStorageWebExtension
 
         Private ReadOnly reportDirectory As String
 
@@ -68,7 +68,7 @@ Namespace DXWebApplication1
             ' The IsValidUrl and CanSetData methods are never called before this method. 
             ' You can validate and correct the specified URL directly in the SetNewData method implementation 
             ' and return the resulting URL used to save a report in your storage.
-            Me.SetData(report, defaultUrl)
+            SetData(report, defaultUrl)
             Return defaultUrl
         End Function
     End Class
