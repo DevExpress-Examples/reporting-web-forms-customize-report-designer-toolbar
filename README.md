@@ -20,7 +20,7 @@ To add a new toolbar command, specify its settings and push it to the event argu
 * [Customize the Report Designer Toolbar (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/400203/create-end-user-reporting-applications/web-reporting/asp-net-mvc-reporting/end-user-report-designer/api-and-customization/customize-the-report-designer-toolbar)
 * [Customize the Report Designer Toolbar (ASP.NET Core)](https://docs.devexpress.com/XtraReports/400281/create-end-user-reporting-applications/web-reporting/asp-net-core-reporting/end-user-report-designer/api-and-customization/customize-the-report-designer-toolbar)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-customize-report-designer-toolbar&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-customize-report-designer-toolbar&~~~was_helpful=no)
 
